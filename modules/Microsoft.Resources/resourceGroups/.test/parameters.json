@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "name": {
-            "value": "<<namePrefix>>-az-rg-x-001"
+            "value": "test-rg"
         },
         "lock": {
             "value": "CanNotDelete"
@@ -18,7 +18,7 @@
                 {
                     "roleDefinitionIdOrName": "Reader",
                     "principalIds": [
-                        "<<deploymentSpId>>"
+                        "198cf3e6-acb7-4147-b99a-d955286be26d"
                     ]
                 }
             ]
