@@ -143,7 +143,7 @@ This module requires a User Assigned Identity (MSI, managed service identity) to
 
 | Output Name | Type | Description |
 | :-- | :-- | :-- |
-| `location` | string | The location the resource was deployed into. |
+| `location` | string | The location the resource was deployed into |
 | `name` | string | The name of the resource group. |
 | `resourceId` | string | The resource ID of the resource group. |
 
@@ -164,7 +164,7 @@ module resourceGroups './Microsoft.Resources/resourceGroups/deploy.bicep' = {
   name: '${uniqueString(deployment().name)}-resourceGroups'
   params: {
     // Required parameters
-    name: '<<namePrefix>>-az-rg-x-001'
+    name: '<<namePrefix>>-az-rg-x-002'
     // Non-required parameters
     lock: 'CanNotDelete'
     roleAssignments: [
@@ -196,7 +196,7 @@ module resourceGroups './Microsoft.Resources/resourceGroups/deploy.bicep' = {
   "parameters": {
     // Required parameters
     "name": {
-      "value": "<<namePrefix>>-az-rg-x-001"
+      "value": "<<namePrefix>>-az-rg-x-002"
     },
     // Non-required parameters
     "lock": {
