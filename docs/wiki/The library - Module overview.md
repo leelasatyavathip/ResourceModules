@@ -88,7 +88,7 @@ This section provides an overview of the library's feature set.
 | 73 | MS.Network<p>localNetworkGateways | :white_check_mark: | :white_check_mark: | :white_check_mark: |  |  |  |  | 86 |
 | 74 | MS.Network<p>loadBalancers | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  |  | [L1:2] | 236 |
 | 75 | MS.ServiceFabric<p>clusters | :white_check_mark: | :white_check_mark: | :white_check_mark: |  |  |  | [L1:1] | 279 |
-| 76 | MS.DataFactory<p>factories | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  | [L1:2] | 227 |
+| 76 | MS.DataFactory<p>factories | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  | [L1:2, L2:1] | 249 |
 | 77 | MS.Logic<p>workflows | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  |  |  | 192 |
 | 78 | MS.Web<p>hostingEnvironments | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  |  |  | 162 |
 | 79 | MS.Web<p>sites | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  | [L1:2] | 248 |
@@ -117,7 +117,8 @@ This section provides an overview of the library's feature set.
 | 102 | MS.KubernetesConfiguration<p>extensions |  |  |  |  |  |  |  | 63 |
 | 103 | MS.AppConfiguration<p>configurationStores | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  | [L1:1] | 203 |
 | 104 | MS.ManagedServices<p>registrationDefinitions |  |  |  |  |  |  |  | 60 |
-| Sum | | 81 | 79 | 89 | 48 | 21 | 2 | 140 | 17338 |
+| Sum | | 81 | 79 | 89 | 48 | 21 | 2 | 141 | 17360 |
+
 
 
 
