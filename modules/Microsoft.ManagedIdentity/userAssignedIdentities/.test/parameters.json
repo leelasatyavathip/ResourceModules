@@ -6,7 +6,7 @@
             "value": "<<namePrefix>>-az-msi-x-001"
         },
         "lock": {
-            "value": "CanNotDelete"
+            "value": ""
         },
         "roleAssignments": {
             "value": [
