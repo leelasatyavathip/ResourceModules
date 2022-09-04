@@ -156,7 +156,7 @@ The following module usage examples are retrieved from the content of the files 
 module userAssignedIdentities './Microsoft.ManagedIdentity/userAssignedIdentities/deploy.bicep' = {
   name: '${uniqueString(deployment().name)}-userAssignedIdentities'
   params: {
-    lock: 'CanNotDelete'
+    lock: ''
     name: '<<namePrefix>>-az-msi-x-001'
     roleAssignments: [
       {
@@ -183,7 +183,7 @@ module userAssignedIdentities './Microsoft.ManagedIdentity/userAssignedIdentitie
   "contentVersion": "1.0.0.0",
   "parameters": {
     "lock": {
-      "value": "CanNotDelete"
+      "value": ""
     },
     "name": {
       "value": "<<namePrefix>>-az-msi-x-001"
